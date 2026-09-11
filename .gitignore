@@ -14,7 +14,8 @@ Thumbs.db
 # Temp
 *.tmp
 *.log
-_commit_msg.txt
+# 以 _ 开头的临时文件（如 _commit_msg.txt）
+_*.txt
 
 # 本公开仓库仅含「客户端提示词与规则」；后端与打包脚本不入库
 server/
