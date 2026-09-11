@@ -91,6 +91,9 @@ git clone https://github.com/songzhou666/sz-writer.git
 
 放好后刷新技能列表，即可看到 **sz-writer**。
 
+**方式三：SkillHub 一键安装（推荐给非开发者）**
+在 [SkillHub](https://skillhub.cn) 搜索「政文通 · 公文写作助手」，进入详情页点安装即可，无需手动放目录。
+
 ---
 
 ## 快速开始（3 句话就能用）
