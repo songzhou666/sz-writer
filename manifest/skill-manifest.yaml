@@ -1,0 +1,15 @@
+name: sz-writer
+title: 政文通·公文写作助手（写作/改写/评估）
+summary: 面向党政机关、事业单位、国企、基层、执法等岗位的结构化公文写作+改写+评估助手。先选型后动笔、多文体匹配让用户选、六维审核去AI味、联网兜底未收录文体，交付国标格式终稿。
+version: 1.0.0
+privacy: public
+deliverable: skill
+env:
+  runtime: 纯对话智能体（写作状态无持久文件系统，靠内联状态卡承载；付费资产加载需平台支持命令执行与临时文件写入）
+  knowledge_base: 资产正文 按需检索
+  websearch: 联网搜索（联网动态文体扩展）
+contract:
+  - 资产目录树/正文schema/族索引行格式对齐选型与创作规范
+  - 会话状态：内联状态卡，不依赖文件系统
+entry: SKILL.md
+state_machine: S0意图→S1安全→S2画像→S3追问→S4选型→S5确认→S6起草/改写→S7六维审核/评估；联网扩展为兜底通道

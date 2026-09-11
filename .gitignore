@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+*.orig
+
+# Temp
+*.tmp
+*.log
+_commit_msg.txt
+
+# 本公开仓库仅含「客户端提示词与规则」；后端与打包脚本不入库
+server/
+build.py
+build.bat
+
+# 付费资产（严禁提交 / 严禁随 Skill 包分发，仅通过付费 API 下发）
+assets/
+server/assets/
+
+# 打包产物（内含全部资产正文，严禁提交）
+dist/
+server/package/
+*.zip
+
+# 依赖
+node_modules/
+
+# 敏感凭证（绝不提交；真实密钥已移至 Skill 目录之外）
+rules/deploy_config.json
+server/deploy_config.json
+keys/
+*.pem
+*.key
+.env

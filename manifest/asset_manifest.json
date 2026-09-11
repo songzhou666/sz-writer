@@ -1,0 +1,381 @@
+{
+  "_note": {
+    "asset_root": "assets",
+    "location": "资产目录位于 Skill 包之外（默认 .private/sz-writer/assets，可用 build.py 的环境变量 SZ_WRITER_ASSETS_DIR 覆盖），严禁随 Skill 包分发",
+    "path_convention": "下列路径均以资产目录的上一级为根，即 'assets/index/baogao.md' 指资产目录下的 'index/baogao.md'"
+  },
+  "families": {
+    "报告": {
+      "index": "assets/index/baogao.md",
+      "body_dir": "assets/body/baogao",
+      "items": {
+        "专项报告": "assets/body/baogao/zhuanxiang.md",
+        "工作报告": "assets/body/baogao/gongzuo.md",
+        "情况报告": "assets/body/baogao/qingkuang.md",
+        "整改报告": "assets/body/baogao/zhenggai.md",
+        "述职报告": "assets/body/baogao/shuzhi.md",
+        "阶段性报告": "assets/body/baogao/jieduan.md"
+      }
+    },
+    "保证书": {
+      "index": "assets/index/baozhengshu.md",
+      "body_dir": "assets/body/baozhengshu",
+      "items": {
+        "安全生产保证书": "assets/body/baozhengshu/anquan.md"
+      }
+    },
+    "倡议书": {
+      "index": "assets/index/changyishu.md",
+      "body_dir": "assets/body/changyishu",
+      "items": {
+        "公益倡议": "assets/body/changyishu/gongyi.md"
+      }
+    },
+    "承诺书": {
+      "index": "assets/index/chengnuoshu.md",
+      "body_dir": "assets/body/chengnuoshu",
+      "items": {
+        "安全生产责任书": "assets/body/chengnuoshu/anquan.md",
+        "廉洁承诺": "assets/body/chengnuoshu/lianjie.md"
+      }
+    },
+    "党课讲稿": {
+      "index": "assets/index/dangkejiangao.md",
+      "body_dir": "assets/body/dangkejiangao",
+      "items": {
+        "专题党课讲稿": "assets/body/dangkejiangao/zhuanti.md"
+      }
+    },
+    "调研报告": {
+      "index": "assets/index/diaoyanbaogao.md",
+      "body_dir": "assets/body/diaoyanbaogao",
+      "items": {
+        "行业调研": "assets/body/diaoyanbaogao/hangye.md",
+        "问题调研": "assets/body/diaoyanbaogao/wenti.md"
+      }
+    },
+    "督办函": {
+      "index": "assets/index/dubanhan.md",
+      "body_dir": "assets/body/dubanhan",
+      "items": {
+        "事项督办函": "assets/body/dubanhan/shixiang.md"
+      }
+    },
+    "发言稿": {
+      "index": "assets/index/fayangao.md",
+      "body_dir": "assets/body/fayangao",
+      "items": {
+        "专题发言稿": "assets/body/fayangao/zhuanti.md"
+      }
+    },
+    "公报": {
+      "index": "assets/index/gongbao.md",
+      "body_dir": "assets/body/gongbao",
+      "items": {
+        "数据公报": "assets/body/gongbao/shuju.md"
+      }
+    },
+    "公告": {
+      "index": "assets/index/gonggao.md",
+      "body_dir": "assets/body/gonggao",
+      "items": {
+        "事项公示": "assets/body/gonggao/shixiang.md",
+        "政策告知": "assets/body/gonggao/zhengce.md"
+      }
+    },
+    "公开信": {
+      "index": "assets/index/gongkaixin.md",
+      "body_dir": "assets/body/gongkaixin",
+      "items": {
+        "致群众公开信": "assets/body/gongkaixin/qunzhong.md"
+      }
+    },
+    "工作动态": {
+      "index": "assets/index/gongzuodongtai.md",
+      "body_dir": "assets/body/gongzuodongtai",
+      "items": {
+        "部门工作动态": "assets/body/gongzuodongtai/bumen.md"
+      }
+    },
+    "工作方案": {
+      "index": "assets/index/gongzuofangan.md",
+      "body_dir": "assets/body/gongzuofangan",
+      "items": {
+        "专项整治方案": "assets/body/gongzuofangan/zhuanxiang.md",
+        "应急处置方案": "assets/body/gongzuofangan/yingji.md",
+        "项目推进方案": "assets/body/gongzuofangan/xiangmu.md"
+      }
+    },
+    "工作计划": {
+      "index": "assets/index/gongzuojihua.md",
+      "body_dir": "assets/body/gongzuojihua",
+      "items": {
+        "专项计划": "assets/body/gongzuojihua/zhuanxiang.md",
+        "年度计划": "assets/body/gongzuojihua/niandu.md"
+      }
+    },
+    "工作要点": {
+      "index": "assets/index/gongzuoyaodian.md",
+      "body_dir": "assets/body/gongzuoyaodian",
+      "items": {
+        "年度工作要点": "assets/body/gongzuoyaodian/niandu.md"
+      }
+    },
+    "工作总结": {
+      "index": "assets/index/gongzuozongjie.md",
+      "body_dir": "assets/body/gongzuozongjie",
+      "items": {
+        "专项总结": "assets/body/gongzuozongjie/zhuanxiang.md",
+        "年度总结": "assets/body/gongzuozongjie/niandu.md"
+      }
+    },
+    "函": {
+      "index": "assets/index/han.md",
+      "body_dir": "assets/body/han",
+      "items": {
+        "协调函": "assets/body/han/xietiao.md",
+        "告知函": "assets/body/han/gaozhi.md",
+        "商洽函": "assets/body/han/shangqia.md",
+        "征询函": "assets/body/han/zhengxun.md",
+        "求助函": "assets/body/han/qiuzhu.md",
+        "答复函": "assets/body/han/dafu.md"
+      }
+    },
+    "汇报材料": {
+      "index": "assets/index/huibaocailiao.md",
+      "body_dir": "assets/body/huibaocailiao",
+      "items": {
+        "专项汇报": "assets/body/huibaocailiao/zhuanxiang.md",
+        "督查汇报": "assets/body/huibaocailiao/ducha.md",
+        "阶段性汇报": "assets/body/huibaocailiao/jieduan.md"
+      }
+    },
+    "简报": {
+      "index": "assets/index/jianbao.md",
+      "body_dir": "assets/body/jianbao",
+      "items": {
+        "工作简报": "assets/body/jianbao/gongzuo.md"
+      }
+    },
+    "讲话稿": {
+      "index": "assets/index/jianghuagao.md",
+      "body_dir": "assets/body/jianghuagao",
+      "items": {
+        "会议讲话稿": "assets/body/jianghuagao/huiyi.md"
+      }
+    },
+    "介绍信": {
+      "index": "assets/index/jieshaoxin.md",
+      "body_dir": "assets/body/jieshaoxin",
+      "items": {
+        "工作介绍信": "assets/body/jieshaoxin/gongzuo.md"
+      }
+    },
+    "纪要": {
+      "index": "assets/index/jiyao.md",
+      "body_dir": "assets/body/jiyao",
+      "items": {
+        "专项纪要": "assets/body/jiyao/zhuanxiang.md",
+        "会议纪要": "assets/body/jiyao/huiyi.md",
+        "协调纪要": "assets/body/jiyao/xietiao.md",
+        "督办纪要": "assets/body/jiyao/duban.md"
+      }
+    },
+    "决定": {
+      "index": "assets/index/jueding.md",
+      "body_dir": "assets/body/jueding",
+      "items": {
+        "专项整治决定": "assets/body/jueding/zhuanxiang.md",
+        "奖惩决定": "assets/body/jueding/jiangcheng.md",
+        "工作部署决定": "assets/body/jueding/bushu.md"
+      }
+    },
+    "决议": {
+      "index": "assets/index/jueyi.md",
+      "body_dir": "assets/body/jueyi",
+      "items": {
+        "重大事项表决": "assets/body/jueyi/zhongda.md"
+      }
+    },
+    "命令": {
+      "index": "assets/index/mingling.md",
+      "body_dir": "assets/body/mingling",
+      "items": {
+        "行政命令": "assets/body/mingling/xingzheng.md"
+      }
+    },
+    "批复": {
+      "index": "assets/index/pifu.md",
+      "body_dir": "assets/body/pifu",
+      "items": {
+        "事项批复": "assets/body/pifu/shixiang.md",
+        "变更批复": "assets/body/pifu/biangeng.md",
+        "立项批复": "assets/body/pifu/lixiang.md",
+        "经费批复": "assets/body/pifu/jingfei.md"
+      }
+    },
+    "情况报告": {
+      "index": "assets/index/qingkuangbaogao.md",
+      "body_dir": "assets/body/qingkuangbaogao",
+      "items": {
+        "专项摸排报告": "assets/body/qingkuangbaogao/zhuanxiang.md"
+      }
+    },
+    "情况说明": {
+      "index": "assets/index/qingkuangshuoming.md",
+      "body_dir": "assets/body/qingkuangshuoming",
+      "items": {
+        "事项说明": "assets/body/qingkuangshuoming/shixiang.md"
+      }
+    },
+    "请示": {
+      "index": "assets/index/qingshi.md",
+      "body_dir": "assets/body/qingshi",
+      "items": {
+        "事项请示": "assets/body/qingshi/shixiang.md",
+        "变更请示": "assets/body/qingshi/biangeng.md",
+        "延期请示": "assets/body/qingshi/yanqi.md",
+        "立项请示": "assets/body/qingshi/lixiang.md",
+        "经费请示": "assets/body/qingshi/jingfei.md"
+      }
+    },
+    "申请书": {
+      "index": "assets/index/shenqingshu.md",
+      "body_dir": "assets/body/shenqingshu",
+      "items": {
+        "入党申请书": "assets/body/shenqingshu/rudang.md",
+        "岗位申请": "assets/body/shenqingshu/gangwei.md",
+        "经费申请": "assets/body/shenqingshu/jingfei.md"
+      }
+    },
+    "事迹材料": {
+      "index": "assets/index/shijicailiao.md",
+      "body_dir": "assets/body/shijicailiao",
+      "items": {
+        "先进典型事迹材料": "assets/body/shijicailiao/xianjin.md"
+      }
+    },
+    "实施方案": {
+      "index": "assets/index/shishifangan.md",
+      "body_dir": "assets/body/shishifangan",
+      "items": {
+        "专项工作实施方案": "assets/body/shishifangan/zhuanxiang.md"
+      }
+    },
+    "思想汇报": {
+      "index": "assets/index/sixianghuibao.md",
+      "body_dir": "assets/body/sixianghuibao",
+      "items": {
+        "入党思想汇报": "assets/body/sixianghuibao/rudang.md"
+      }
+    },
+    "通报": {
+      "index": "assets/index/tongbao.md",
+      "body_dir": "assets/body/tongbao",
+      "items": {
+        "专项工作通报": "assets/body/tongbao/zhuanxiang.md",
+        "专项督查通报": "assets/body/tongbao/ducha.md",
+        "工作情况通报": "assets/body/tongbao/gongzuo.md",
+        "批评通报": "assets/body/tongbao/piping.md",
+        "表彰通报": "assets/body/tongbao/biaozhang.md"
+      }
+    },
+    "通告": {
+      "index": "assets/index/tonggao.md",
+      "body_dir": "assets/body/tonggao",
+      "items": {
+        "行业管控通告": "assets/body/tonggao/hangye.md"
+      }
+    },
+    "通知": {
+      "index": "assets/index/tongzhi.md",
+      "body_dir": "assets/body/tongzhi",
+      "items": {
+        "事项通知": "assets/body/tongzhi/shixiang.md",
+        "人事任免通知": "assets/body/tongzhi/renshi.md",
+        "会议通知": "assets/body/tongzhi/huiyi.md",
+        "整改通知": "assets/body/tongzhi/zhenggai.md",
+        "转发通知": "assets/body/tongzhi/zhuanfa.md",
+        "部署通知": "assets/body/tongzhi/bushu.md"
+      }
+    },
+    "问题清单": {
+      "index": "assets/index/wentiqingdan.md",
+      "body_dir": "assets/body/wentiqingdan",
+      "items": {
+        "督查问题清单": "assets/body/wentiqingdan/ducha.md"
+      }
+    },
+    "邀请函": {
+      "index": "assets/index/yaoqinghan.md",
+      "body_dir": "assets/body/yaoqinghan",
+      "items": {
+        "活动邀请函": "assets/body/yaoqinghan/huodong.md"
+      }
+    },
+    "议案": {
+      "index": "assets/index/yian.md",
+      "body_dir": "assets/body/yian",
+      "items": {
+        "专项事项议案": "assets/body/yian/zhuanxiang.md"
+      }
+    },
+    "意见": {
+      "index": "assets/index/yijian.md",
+      "body_dir": "assets/body/yijian",
+      "items": {
+        "协作意见": "assets/body/yijian/xiezuo.md",
+        "工作意见": "assets/body/yijian/gongzuo.md",
+        "整改意见": "assets/body/yijian/zhenggai.md",
+        "落实意见": "assets/body/yijian/luoshi.md"
+      }
+    },
+    "整改台账": {
+      "index": "assets/index/zhenggaitaizhang.md",
+      "body_dir": "assets/body/zhenggaitaizhang",
+      "items": {
+        "专项整改台账": "assets/body/zhenggaitaizhang/zhuanxiang.md"
+      }
+    },
+    "证明信": {
+      "index": "assets/index/zhengmingxin.md",
+      "body_dir": "assets/body/zhengmingxin",
+      "items": {
+        "在职证明信": "assets/body/zhengmingxin/zaizhi.md"
+      }
+    },
+    "主持词": {
+      "index": "assets/index/zhuchici.md",
+      "body_dir": "assets/body/zhuchici",
+      "items": {
+        "会议主持词": "assets/body/zhuchici/huiyi.md"
+      }
+    },
+    "自查报告": {
+      "index": "assets/index/zichabaogao.md",
+      "body_dir": "assets/body/zichabaogao",
+      "items": {
+        "党风廉政自查": "assets/body/zichabaogao/dangfeng.md",
+        "安全生产自查": "assets/body/zichabaogao/anquan.md"
+      }
+    }
+  },
+  "catalog": {
+    "选型总目录_一级": "assets/catalog/catalog_l0.md",
+    "取值域字典": "assets/catalog/value_dict.md",
+    "追问问题库": "assets/catalog/followup_questions.md"
+  },
+  "common": {
+    "国标格式规范": "assets/common/gb_format.md",
+    "通用骨架库_基础版": "assets/common/skeleton_base.md"
+  },
+  "rules": {
+    "审核规则": "rules/audit_rules.md",
+    "去AI味负面词表": "rules/deai_blacklist.md",
+    "检索加载协议": "rules/load_protocol.md",
+    "联网动态文体扩展": "rules/online_extend.md",
+    "临时文体资产卡模板": "rules/temp_asset_template.md",
+    "评估报告模板": "rules/eval_report_template.md",
+    "HTML交付模板": "rules/html_template.md"
+  }
+}
