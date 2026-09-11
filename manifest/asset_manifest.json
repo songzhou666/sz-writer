@@ -376,6 +376,8 @@
     "联网动态文体扩展": "rules/online_extend.md",
     "临时文体资产卡模板": "rules/temp_asset_template.md",
     "评估报告模板": "rules/eval_report_template.md",
-    "HTML交付模板": "rules/html_template.md"
+    "HTML交付模板": "rules/html_template.md",
+    "反模式清单": "rules/anti_patterns.md",
+    "深度FAQ": "rules/faq_deep.md"
   }
 }
